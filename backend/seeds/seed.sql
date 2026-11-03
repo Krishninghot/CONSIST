@@ -20,3 +20,4 @@ ON CONFLICT (id) DO UPDATE SET
   icon = EXCLUDED.icon,
   unlock_condition = EXCLUDED.unlock_condition,
   sort_order = EXCLUDED.sort_order;
+

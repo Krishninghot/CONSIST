@@ -61,3 +61,4 @@ supabase db push
 - Every table has `ALTER TABLE ... ENABLE ROW LEVEL SECURITY;`.
 - Users can **only** read, insert, update, or delete records belonging to their authenticated `auth.uid()`.
 - Data isolation prevents cross-tenant access at the PostgreSQL engine level.
+
